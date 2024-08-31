@@ -71,7 +71,6 @@ se dividen en:
     | V   | F   | V     |
     | F   | V   | V     |
     | F   | F   | F     |
-    Relacion: **Subcontraria**
 
 - disyuncion excluyente (xor) (W): ***p*** o ***q***
 
@@ -81,7 +80,6 @@ se dividen en:
     | V   | F   | V     |
     | F   | V   | V     |
     | F   | F   | F     |
-    Relacion: **contraria**
     tambien se expresa como: 
     *(A • ~B) ∨ (~A • B)*
 - negacion (not) (~) ***p*** es falso
@@ -106,7 +104,6 @@ se dividen en:
     | V   | F   | F     |
     | F   | V   | V     |
     | F   | F   | V     |
-    Relacion: **implicancia**
 
 - bicondicional (xnor) (≡) ***p*** si y solo si ***q***
   | p   | q   | p ≡ q |
