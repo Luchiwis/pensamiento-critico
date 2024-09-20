@@ -13,6 +13,7 @@
 
 *relaciones simetricas y asimetricas*
 
+*casos de sustitucion*
 
 | imaginario                           | ideal |
 | ------------------------------------ | ----- |
@@ -115,6 +116,14 @@ se dividen en:
     
   *(A V B) • (~A V ~B)*
 
+- incompatible (/)
+  | p   | q   | p / q |
+  | --- | --- | ----- |
+  | F   | F   | v     |
+  | F   | V   | v     |
+  | V   | F   | v     |
+  | V   | V   | F     |
+
 *"una tautologia es una proposicon que siempre da verdadero y una contradiccion una que siempre da falso, una contingencia puede dar verdadero o falso"*
 
 ## relaciones entre formas proposicionales
@@ -122,11 +131,76 @@ se dividen en:
 - Subcontrariedad (or): no son simultaneamente falsas
 - Contradictorias (xor): si no son simultaneamente verdaderas ni falsas
 - Equivalentes (xnor): dos formas proposicionales son equivalentes si y solo si en cada caso tienen el mismo valor
-- Implicacion/deduccion (⊃): una forma proposicional implica a otra forma proposicional si y solo si no ocurre que siendo la primera verdadera, la segunda sea falsa (contraejemplo). Si una forma implica a otra, la segunda se deduce de la primera
+- Implicacion (⊃): una forma proposicional implica a otra forma proposicional si y solo si no ocurre que siendo la primera verdadera, la segunda sea falsa (contraejemplo). Si una forma implica a otra, la segunda se deduce de la primera
 - deduccion: *una implicacion en sentido contrario es una deduccion, si A implica B, entonces B se deduce de A*
 
-# Leyes de demorgan
-~(P • Q) <=> (~P) + (~Q)
+## algebra de boole
+- conmutativa
+- distriburiva
+- asociativa
+- identidad
+- anulacion
+- idempotencia
+- absorcion
+- complementacion
+- involucion
+- de morgan
+
+## Leyes de demorgan
+### negacion de la conjuncion
+~(P • Q) <=> (~P) V (~Q)
 
 ~(P V Q) <=> (~P) • (~Q)
 
+
+P V Q <=> ~(~P • ~Q)
+P • Q <=> ~(~P V ~Q)
+
+
+
+
+## Razonamientos
+- deductivos (son validos)
+  - formales
+  - logicos
+- inductivos
+- falaces (son invalidas)
+  - formales
+  - materiales
+
+## expresiones derivativas
+- indicadores: pues, puesto que, ya que, dado que, porque
+- conclusion: por lo tanto, asi que, luego, por consiguiente, en consecuencia, por ende, de modo que, de manera que
+
+## Tipos de logica
+- formal
+- cuantificacional
+- informal (razonamientos inductivos y falacias materiales)
+
+
+*un razonamiento es valido si su forma es valida y una forma valida es aquella en la cual las premisas implican a la conclusion*
+
+## Prueba de invalidez (asignacion de valores)
+1. reemplazar las  variables del consecuente para forzar un valor falso
+2. si da falso reemplazar las variables con los mismos valores en las premisas y forzar un valor verdadero
+3. Si la expresion da V ⊃ F entonces el razonamiento es invalido
+   
+una proposicion es invalida cuando las premisas no implican a la conclusion
+
+
+## Metavariables
+*variables que contienen expresiones*
+por ejemplo
+A = P w Q
+
+## Reglas logicas
+- modus ponens:
+  - P⊃Q,P ∴ Q
+- doble negacion
+  - !!Q = Q
+- silogismo hipotetico
+  - (P ⊃ Q ⊃ R) ∴ (P ⊃ R)
+- silogismo disyuntivo
+  - 
+- simplificacion
+- adicion
