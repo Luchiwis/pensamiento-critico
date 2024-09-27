@@ -1,198 +1,200 @@
-<h1 align="center"> Pensamiento critico </h1>
+<h1 align="center">Pensamiento Crítico</h1>
 
-<p align="center"> Hecho por: Lucio el mejor :)</p>
+<p align="center">Hecho por: Lucio el mejor :)</p>
 
-## citas textuales y conceptos de la primera clase:
-*la logica es una ciencia **formal** que estudia las estructuras del pensamiento*
-
-*una ciencia debe contener un objeto de estudio, un metodo y una teoria*
-
-*la filosofia no se considera una ciencia porque pretende estudiarlo todo*
-
-*con las ciencias facticas podemos suponer esa relacion causal en un hecho no asi con las ciencias formales*
-
-*el cambio es una caracteristica de la realidad*
+## Citas Textuales y Conceptos recogidos de algunas clases
+- *La lógica es una ciencia **formal** que estudia las estructuras del pensamiento.*
+- *Una ciencia debe contener un objeto de estudio, un método y una teoría.*
+- *La filosofía no se considera una ciencia porque pretende estudiarlo todo.*
+- *Con las ciencias fácticas podemos suponer esa relación causal en un hecho, no así con las ciencias formales.*
+- *El cambio es una característica de la realidad.*
+- *El pensamiento viene de la mano con el lenguaje.*
+- *Un lenguaje artificial surge para analizar un lenguaje natural.*
 
 
-## ciencias
-| Formales | Facticas |
-| --- | --- |
-| Tiene un objeto de estudio ideal                                                           | El objeto de estudio es real                                |
-| El metodo es la deduccion, que siempre esta sujeto a una hipotesis determinada por axiomas | Utilizan el metodo empirico, no esta sujeto a una hipotesis |
-| Logica, matematica, semantica, etc...                                                      | Fisica, quimica, psicologia, etc...                         |
+## Ciencias
+| **Formales** | **Fácticas** |
+|--------------|---------------|
+| Tiene un objeto de estudio ideal | El objeto de estudio es real |
+| El método es la deducción, que siempre está sujeto a una hipótesis determinada por axiomas | Utilizan el método empírico, no está sujeto a una hipótesis |
+| Lógica, matemática, semántica, etc. | Física, química, psicología, etc. |
 
-
-| imaginario                           | ideal |
-| ------------------------------------ | ----- |
-| implementa elementos de la  realidad |       |
-
-
-*el pensamiento viene de la mano con el lenguaje*
-
-*un lenguaje artificial surge para analizar un lenguaje natural*
-
-___
+---
 
 ## Conceptos
+### Relación Simétrica
+Una relación **simétrica** entre dos elementos **A** y **B** significa que si **A** está relacionado con **B**, entonces **B** también está relacionado con **A**. Por ejemplo, en la relación "ser amigo de", si **A** es amigo de **B**, entonces **B** es amigo de **A**.
 
-*relaciones simetricas y asimetricas*
+### Relación Asimétrica
+Una relación **asimétrica** implica que si **A** está relacionado con **B**, entonces **B** no puede estar relacionado con **A**. Un ejemplo sería la relación "ser padre de"; si **A** es padre de **B**, entonces **B** no puede ser padre de **A**.
 
-*casos de sustitucion*
+### Casos de Sustitución
+Los **casos de sustitución** se refieren a situaciones en las que se reemplazan variables o elementos en una expresión o proposición sin cambiar su valor lógico. 
+en las tablas de verdad los posibles valores de P y Q son casos de sustitución.
 
 
-
-
-## logica proposicional
-
-*es un lenguaje artificial formado por:*
-- letras esquematicas (variables)
-- conectivas
-- signos auxiliares () [] {}
+## Lógica Proposicional
+*Es un lenguaje artificial formado por:*
+- Letras esquemáticas (variables).
+- Conectivas.
+- Signos auxiliares: `() [] {}`.
 
 ## Proposiciones
-las proposiciones deben cumplir 3 requisitos
-- debe ser una oracion enunciativa (tener copula)
-- debe ser una  afirmacion o una negacion
-- debe poder clasificarse en un valor booleano (verdadero o falso)
+Las proposiciones deben cumplir 3 requisitos:
+- Debe ser una oración enunciativa (tener cópula).
+- Debe ser una afirmación o una negación.
+- Debe poder clasificarse en un valor booleano (verdadero o falso).
 
-se dividen en:
-- Condicional (compleja)
-- Disyuntiva (compleja)
-- Categorica (simple)
+Se dividen en:
+- Condicional (compleja).
+- Disyuntiva (compleja).
+- Categórica (simple).
 
-# conectivas
-Con sus respectivas tablas de verdad y simbolos
+## Conectivas
+Con sus respectivas tablas de verdad y símbolos:
 
-- ### conjuncion (and) (•) ***p*** y ***q***
+### Conjunción (AND) (•) 
+***p*** y ***q***
 
-    | p   | q   | p • q |
-    | --- | --- | ----- |
-    | V   | V   | V     |
-    | V   | F   | F     |
-    | F   | V   | F     |
-    | F   | F   | F     |
+| p   | q   | p • q |
+|-----|-----|-------|
+| V   | V   | V     |
+| V   | F   | F     |
+| F   | V   | F     |
+| F   | F   | F     |
 
-- ### disyuncion inclusiva (or) (∨) ***p*** y/o ***q***
+### Disyunción Inclusiva (OR) (∨) 
+***p*** y/o ***q***
 
-    | p   | q   | p ∨ q |
-    | --- | --- | ----- |
-    | V   | V   | V     |
-    | V   | F   | V     |
-    | F   | V   | V     |
-    | F   | F   | F     |
+| p   | q   | p ∨ q |
+|-----|-----|-------|
+| V   | V   | V     |
+| V   | F   | V     |
+| F   | V   | V     |
+| F   | F   | F     |
 
-- ### disyuncion excluyente (xor) (W): ***p*** o ***q***
+### Disyunción Excluyente (XOR) (w) 
+***p*** o ***q***
 
-    | p   | q   | p W q |
-    | --- | --- | ----- |
-    | V   | V   | F     |
-    | V   | F   | V     |
-    | F   | V   | V     |
-    | F   | F   | F     |
+| p   | q   | p W q |
+|-----|-----|-------|
+| V   | V   | F     |
+| V   | F   | V     |
+| F   | V   | V     |
+| F   | F   | F     |
 
-    tambien se expresa como: `(A • ~B) ∨ (~A • B)`
-- ### negacion (not) (~) ***p*** es falso
+También se expresa como: `(A • ~B) ∨ (~A • B)`.
 
-    | p   | ~p  |
-    | --- | --- |
-    | V   | F   |
-    | F   | V   |
+### Negación (NOT) (~) 
+***p*** es falso
 
-- ### condicional (⊃) si ***p*** entonces ***q***
+| p   | ~p  |
+|-----|-----|
+| V   | F   |
+| F   | V   |
 
-    | p   | q   | p ⊃ q |
-    | --- | --- | ----- |
-    | V   | V   | V     |
-    | V   | F   | F     |
-    | F   | V   | V     |
-    | F   | F   | V     |
+### Condicional (⊃) 
+Si ***p*** entonces ***q***
 
-    
-  #### p = condicion suficiente **(antecedente)**
-  - "si"
-  - "es suficiente"
-  - "alcanza"
-  #### q = Condicion necesaria **(consecuente)**
-  -	"solo si"
-  - "es necesario"
-  - "unicamente"
+| p   | q   | p ⊃ q |
+|-----|-----|-------|
+| V   | V   | V     |
+| V   | F   | F     |
+| F   | V   | V     |
+| F   | F   | V     |
 
+#### p = Condición Suficiente **(antecedente)**
+- "si"
+- "es suficiente"
+- "alcanza"
 
-- ### bicondicional (xnor) (≡) ***p*** si y solo si ***q***
-  | p   | q   | p ≡ q |
-  | --- | --- | ----- |
-  | F   | F   | V     |
-  | F   | V   | F     |
-  | V   | F   | F     |
-  | V   | V   | V     |
-    
-  tambien se expresa como: `(A V B) • (~A V ~B)`
+#### q = Condición Necesaria **(consecuente)**
+- "solo si"
+- "es necesario"
+- "únicamente"
 
-- ### incompatible (/)
-  | p   | q   | p / q |
-  | --- | --- | ----- |
-  | F   | F   | V     |
-  | F   | V   | V     |
-  | V   | F   | V     |
-  | V   | V   | F     |
+### Bicondicional (XNOR) (≡) 
+***p*** si y solo si ***q***
 
-*"una tautologia es una proposicon que siempre da verdadero y una contradiccion una que siempre da falso, una contingencia puede dar verdadero o falso"*
+| p   | q   | p ≡ q |
+|-----|-----|-------|
+| F   | F   | V     |
+| F   | V   | F     |
+| V   | F   | F     |
+| V   | V   | V     |
 
-# relaciones entre formas proposicionales
-**Si no sos lucio ignorá las relacioens que hice con las compuertas logicas :p**
-- ### Contrariedad *(nand)*:
-  - dos formas proposicionales son contrarias cuando **no son simultaneamente verdaderas.**
-  - relación **simetrica**
+También se expresa como: `(A V B) • (~A V ~B)`.
 
-- ### Subcontrariedad *(or)*:
-    - dos formas proposicionales son subcontrarias cuando **no son simultaneamente falsas.**
-  - relación **simetrica**
+### Incompatible (/)
 
-- ### Contradictorias *(xor)*:
-  - dos formas proposicionales son contradictorias cuando **no son simultaneamente verdaderas ni falsas** (son distintas en todos los casos)
-  - relación **simetrica**
-  
-- ### Equivalentes *(xnor)*:
-  - dos formas proposicionales son equivalentes si y solo si **en cada caso tienen el mismo valor** (son iguales en todos los casos)
-  - relación **simetrica**
-- ### Implicacion (⊃):
-  - una forma proposicional implica a otra si y solo si no ocurre que siendo la primera verdadera, la segunda sea falsa (contraejemplo). Si una forma implica a otra, la segunda se deduce de la primera
-  - relación **asimetrica**
-- ### deduccion:
-  - *una implicacion en sentido contrario es una deduccion, si A implica B, entonces B se deduce de A*
-  -  relación **asimetrica**
+| p   | q   | p / q |
+|-----|-----|-------|
+| F   | F   | V     |
+| F   | V   | V     |
+| V   | F   | V     |
+| V   | V   | F     |
+
+*"Una tautología es una proposición que siempre da verdadero y una contradicción es una que siempre da falso. Una contingencia puede dar verdadero o falso."*
+
+## Relaciones entre Formas Proposicionales
+**Si no sos Lucio, ignorá las relaciones que hice con las compuertas lógicas :p**
+
+### Contrariedad (NAND):
+- Dos formas proposicionales son contrarias cuando **no son simultáneamente verdaderas.**
+- Relación **simétrica**.
+
+### Subcontrariedad (OR):
+- Dos formas proposicionales son subcontrarias cuando **no son simultáneamente falsas.**
+- Relación **simétrica**.
+
+### Contradictorias (XOR):
+- Dos formas proposicionales son contradictorias cuando **no son simultáneamente verdaderas ni falsas** (son distintas en todos los casos).
+- Relación **simétrica**.
+
+### Equivalentes (XNOR):
+- Dos formas proposicionales son equivalentes si y solo si **en cada caso tienen el mismo valor** (son iguales en todos los casos).
+- Relación **simétrica**.
+
+### Implicación (⊃):
+- Una forma proposicional implica a otra si y solo si no ocurre que siendo la primera verdadera, la segunda sea falsa (contraejemplo). Si una forma implica a otra, la segunda se deduce de la primera.
+- Relación **asimétrica**.
+
+### Deducción:
+- *Una implicación en sentido contrario es una deducción. Si A implica B, entonces B se deduce de A.*
+- Relación **asimétrica**.
 
 ## Razonamientos
-- deductivos (son validos)
-  - formales
-  - logicos
-- inductivos
-- falaces (son invalidas)
-  - formales
-  - materiales
+- **Deductivos** (son válidos):
+  - Formales.
+  - Lógicos.
+- **Inductivos**.
+- **Falaces** (son inválidos):
+  - Formales.
+  - Materiales.
 
-## expresiones derivativas
-- indicadores: pues, puesto que, ya que, dado que, porque
-- conclusion: por lo tanto, asi que, luego, por consiguiente, en consecuencia, por ende, de modo que, de manera que
+## Expresiones Derivativas
+- **Indicadores**: pues, puesto que, ya que, dado que, porque.
+- **Conclusión**: por lo tanto, así que, luego, por consiguiente, en consecuencia, por ende, de modo que, de manera que.
 
-## Tipos de logica
-- formal
-- cuantificacional
-- informal (razonamientos inductivos y falacias materiales)
+## Tipos de Lógica
+- **Formal**.
+- **Cuantificacional**.
+- **Informal** (razonamientos inductivos y falacias materiales).
 
+*Un razonamiento es válido si su forma es válida y una forma válida es aquella en la cual las premisas implican a la conclusión.*
 
-*un razonamiento es valido si su forma es valida y una forma valida es aquella en la cual las premisas implican a la conclusion*
+## Prueba de Invalidez (Asignación de Valores)
+*Es tratar de demostrar V ∴ F reemplazando las variables. Si el razonamiento supera la prueba de invalidez, significa que es válido, duh...*
 
-## Prueba de invalidez (asignacion de valores)
-*es tratar de demostrar V ∴ F reemplazando las variables, si el razonamiento supera la prueba de invalidez significa que es valido, duh..*
-1. reemplazar las  variables del consecuente para forzar un valor falso. Si lo logras ya sabes que el razonamiento no es una tautología!
-2. si da falso reemplazar las variables en las premisas con los mismos valores que usaste en el consecuente *(no te hagas el vivo)* y trata de forzar un resultado verdadero
-3. Si la expresion da V ∴ F entonces el razonamiento es invalido.
+1. Reemplazar las variables del consecuente para forzar un valor falso. Si lo logras, ya sabes que el razonamiento no es una tautología.
+2. Si da falso, reemplaza las variables en las premisas con los mismos valores que usaste en el consecuente *(no te hagas el vivo)* y trata de forzar un resultado verdadero.
+3. Si la expresión da V ∴ F, entonces el razonamiento es inválido.
 
-*una proposicion es invalida cuando las premisas no implican a la conclusion*
+*Una proposición es inválida cuando las premisas no implican a la conclusión.*
 
 ___
-**barra separadora de segundo parcial**
+
+**Barra separadora de segundo parcial**
 
 # Álgebra de Boole
 
@@ -253,23 +255,20 @@ ___
 - **Segunda ley:**  
   `~(A • B) = ~A ∨ ~B`
 
-
-
 ## Metavariables
-*variables que contienen expresiones*
-por ejemplo
-`A = P w Q`
+*Variables que contienen expresiones.*  
+Por ejemplo, `A = P ∨ Q`.
 
 ## Reglas Lógicas
-- **Modus Ponens**:
-  - `P ⊃ Q, P ∴ Q`
-- **Doble Negación**:
-  - `!!Q = Q`
-- **Silogismo Hipotético**:
-  - `(P ⊃ Q) ⊃ R ∴ (P ⊃ R)`
-- **Silogismo Disyuntivo**:
-  - `P ∨ Q, ¬P ∴ Q`
-- **Simplificación**:
-  - `P • Q ∴ P`
-- **Adición**:
-  - `P ∴ P ∨ Q`
+- **Modus Ponens**:  
+  `P ⊃ Q, P ∴ Q`
+- **Doble Negación**:  
+  `!!Q = Q`
+- **Silogismo Hipotético**:  
+  `(P ⊃ Q) ⊃ R ∴ (P ⊃ R)`
+- **Silogismo Disyuntivo**:  
+  `P ∨ Q, ¬P ∴ Q`
+- **Simplificación**:  
+  `P • Q ∴ P`
+- **Adición**:  
+  `P ∴ P ∨ Q`
