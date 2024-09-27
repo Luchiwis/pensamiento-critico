@@ -163,6 +163,11 @@ También se expresa como: `(A V B) • (~A V ~B)`.
 - *Una implicación en sentido contrario es una deducción. Si A implica B, entonces B se deduce de A.*
 - Relación **asimétrica**.
 
+
+#### aca dejo un diagrama de venn que se me ocurrió hacer con las relaciones.
+![diagrama de venn](./img/venn-relaciones.jpg)
+
+
 ## Razonamientos
 - **Deductivos** (son válidos):
   - Formales.
@@ -173,8 +178,10 @@ También se expresa como: `(A V B) • (~A V ~B)`.
   - Materiales.
 
 ## Expresiones Derivativas
-- **Indicadores**: pues, puesto que, ya que, dado que, porque.
-- **Conclusión**: por lo tanto, así que, luego, por consiguiente, en consecuencia, por ende, de modo que, de manera que.
+- **Indicadores**: *pues, puesto que, ya que, dado que, porque.*
+- **Simbolo de conclusión**: ∴
+- **Conclusión**: *por lo tanto, así que, luego, por consiguiente, en consecuencia, por ende, de modo que, de manera que.*
+  
 
 ## Tipos de Lógica
 - **Formal**.
