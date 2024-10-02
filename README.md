@@ -125,7 +125,7 @@ Si ***p*** entonces ***q***
 
 También se expresa como: `(A V B) • (~A V ~B)`.
 
-### Incompatible (/)
+### Incompatible (NAND) (/)
 
 | p   | q   | p / q |
 |-----|-----|-------|
